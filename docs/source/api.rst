@@ -7,6 +7,6 @@ API
 
 ot.lp
 -----
-.. autoclass:: pim.KL
+.. autoclass:: pim.example.KL
 
-.. autofunction:: pim.KL.functino_hell
+.. autofunction:: pim.example.functino_hell
