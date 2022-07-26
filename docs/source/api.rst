@@ -2,7 +2,7 @@ API
 ===
 
 .. autosummary::
-   :toctree: generated
+    :toctree: generated
     :template: module.rst
 
-   pim
+   .. pim
