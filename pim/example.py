@@ -3,7 +3,7 @@
 import os
 
 
-class ExampleCalss:
+class KL:
 
     def __init__(self,toto):
         self.toto = toto
