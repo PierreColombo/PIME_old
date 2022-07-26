@@ -9,4 +9,4 @@ ot.lp
 -----
 .. autoclass:: pim.KL
 
-.. autofunction:: pim.functino_hell
+.. autofunction:: pim.KL.functino_hell
