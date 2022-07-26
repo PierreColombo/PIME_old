@@ -1,7 +1,7 @@
 simpleble module 1
 ================
 
-.. automodule:: pim/
+.. automodule:: lumache/
     :members:
     :undoc-members:
     :show-inheritance:
