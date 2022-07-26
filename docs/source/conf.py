@@ -8,7 +8,8 @@ import sys
 sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
 sys.path.insert(0, os.path.abspath('..'))
 sys.path.insert(0, os.path.abspath('../..'))
-sys.path.insert(0, os.path.abspath('../../lumache'))
+
+sys.path.insert(0, os.path.abspath('../../lumache/'))
 sys.path.insert(0, os.path.abspath('../../lumache'))
 sys.path.append(os.path.abspath(
     os.path.join(__file__, "../../lumache")

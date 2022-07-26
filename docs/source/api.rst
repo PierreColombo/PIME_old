@@ -6,3 +6,11 @@ simpleble module 3
     :undoc-members:
     :show-inheritance:
 
+
+The ``SimpleBleClient`` class
+*****************************
+.. autoclass:: lumache.SimpleBleDevice
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
