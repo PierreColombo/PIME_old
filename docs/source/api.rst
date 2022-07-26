@@ -1,4 +1,4 @@
-simpleble module 1
+simpleble module 3
 ================
 
 .. automodule:: lumache
