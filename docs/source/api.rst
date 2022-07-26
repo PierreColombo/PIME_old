@@ -7,5 +7,6 @@ API
 
 ot.lp
 -----
-.. automodule:: pim.example
-   :members:
+.. autoclass:: pim.KL
+
+.. autofunction:: pim.functino_hell
