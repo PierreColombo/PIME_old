@@ -1,7 +1,9 @@
 simpleble module 1
 ================
 
-.. automodule:: lumache/
+.. automodule:: lumache
     :members:
     :undoc-members:
     :show-inheritance:
+
+    .. autosummary:: function
