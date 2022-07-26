@@ -5,7 +5,7 @@ import sys
 import os
 
 sys.path.insert(0, os.path.abspath('..'))
-sys.path.insert(0, os.path.abspath('../catalog'))
+sys.path.insert(0, os.path.abspath('../lumache'))
 project = 'Lumache'
 copyright = '2021, Graziella'
 author = 'Graziella'
