@@ -1,4 +1,4 @@
-simpleble module
+simpleble module 1
 ================
 
 .. automodule:: pim/
