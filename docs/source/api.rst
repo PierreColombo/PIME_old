@@ -5,4 +5,4 @@ API
     :toctree: generated
     :template: module.rst
 
-   .. pim
+   .... pim
