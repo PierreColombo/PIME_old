@@ -1,12 +1,7 @@
-API
-===
+simpleble module
+================
 
 .. automodule:: pim
-   :members:
-
-
-ot.lp
------
-.. autoclass:: pim.example.KL
-
-.. autofunction:: pim.example.functino_hell
+    :members:
+    :undoc-members:
+    :show-inheritance:
