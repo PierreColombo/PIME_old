@@ -6,4 +6,3 @@ simpleble module 1
     :undoc-members:
     :show-inheritance:
 
-    .. autosummary:: function
