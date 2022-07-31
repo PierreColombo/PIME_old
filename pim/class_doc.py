@@ -28,10 +28,7 @@ class SimpleBleDevice(object):
         otherwise (typically used for advertising ‘beacons’).,
         defaults to `False`
 
-    :return: updateCount: int, optional  See :cite:t:`1987:nelson` for an introduction to non-standard analysis Non-standard analysis is fun :cite:p:`1987:nelson`.
-
-
-    .. bibliography:: ref.bib
+    :return: updateCount: int, optional  See :ref:`[12] <1987_nelson>`
     """
 
     def __init__(self, client, addr=None, addrType=None, iface=0,
