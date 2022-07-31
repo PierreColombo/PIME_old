@@ -28,7 +28,20 @@ class SimpleBleDevice(object):
         otherwise (typically used for advertising ‘beacons’).,
         defaults to `False`
 
-    :return: updateCount: int, optional  See :ref:`[12] <1987_nelson>`
+    Returns
+    -------
+    constC : array-like, shape (ns, nt)
+        Constant :math:`\mathbf{C}` matrix in Eq. (6)
+    hC1 : array-like, shape (ns, ns)
+        :math:`\mathbf{h1}(\mathbf{C1})` matrix in Eq. (6)
+    hC2 : array-like, shape (nt, nt)
+        :math:`\mathbf{h2}(\mathbf{C2})` matrix in Eq. (6)
+    .. _references-init-matrix:
+    References
+    ----------
+    .. [12] Gabriel Peyré, Marco Cuturi, and Justin Solomon,
+        "Gromov-Wasserstein averaging of kernel and distance matrices."
+        International Conference on Machine Learning (ICML). 2016.
     """
 
     def __init__(self, client, addr=None, addrType=None, iface=0,

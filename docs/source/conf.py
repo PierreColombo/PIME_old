@@ -15,9 +15,9 @@ sys.path.insert(0, os.path.abspath('../../pim'))
 sys.path.append(os.path.abspath(
     os.path.join(__file__, "../../pim")
 ))
-project = 'Lumache'
+project = 'PIM'
 copyright = '2021, Graziella'
-author = 'Graziella'
+author = 'Pierre Colombo, Malik Boudiaf'
 
 release = '0.1'
 version = '0.1.0'
@@ -32,6 +32,11 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinxcontrib.bibtex',
 ]
+
+autosummary_generate = True
+todo_include_todos = True
+napoleon_numpy_docstring = True
+source_suffix = ['.rst', '.md']
 
 bibtex_bibfiles = [os.path.abspath(
     os.path.join(__file__, "pim")
