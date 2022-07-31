@@ -25,15 +25,10 @@ class SimpleBleDevice(object):
         otherwise (typically used for advertising ‘beacons’).,
         defaults to `False`
 
-    :return constC : array-like, shape (ns, nt)
+    :return: array-like, shape (ns, nt)
         Constant :math:`\mathbf{C}` matrix in Eq. (6)
-    :type constC: int, optional
-    :return hC1 : array-like, shape (ns, ns)
-        :math:`\mathbf{h1}(\mathbf{C1})` matrix in Eq. (6)
-    :type hC1: int, optional
-    :return hC2 : array-like, shape (nt, nt)
-        :math:`\mathbf{h2}(\mathbf{C2})` matrix in Eq. (6)
-    :type hC1: int, optional
+    :rtype: int, optional
+
 
     References
     ----------
