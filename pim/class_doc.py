@@ -31,35 +31,10 @@ class SimpleBleDevice(object):
     :param updateCount: Integer count of the number of advertising packets
         received from the device so far, defaults to 0
 
-    Returns
-    -------
-    
-    :type updateCount: int, optional
-    See :cite:t:`1987:nelson` for an introduction to non-standard analysis.
-Non-standard analysis is fun :cite:p:`1987:nelson`.
-.. bibliography::
+    :return: updateCount: int, optional  See :cite:t:`1987:nelson` for an introduction to non-standard analysis Non-standard analysis is fun :cite:p:`1987:nelson`.
 
 
-    Notes
-    -----
-
-    AB divergences have been proposed in : ``` bibtex @article{cichocki2011generalized,
-  title={Generalized alpha-beta divergences and their application to robust nonnegative matrix factorization},
-  author={Cichocki, Andrzej and Cruces, Sergio and Amari, Shun-ichi},
-  journal={Entropy},
-  volume={13},
-  number={1},
-  pages={134--170},
-  year={2011},
-  publisher={MDPI}
-  } ```
-
-    and has been used in:
-    @article{Colombo_Clavel_Piantanida_2022, title={InfoLM: A New Metric to Evaluate Summarization &;
-    Data2Text Generation}, volume={36}, url={https://ojs.aaai.org/index.php/AAAI/article/view/21299},
-    DOI={10.1609/aaai.v36i10.21299},
-    author={Colombo, Pierre Jean A. and Clavel, Chloé and Piantanida, Pablo},
-    year={2022}, month={Jun.}, pages={10554-10562}}
+    .. bibliography::
     """
 
     def __init__(self, client, addr=None, addrType=None, iface=0,
