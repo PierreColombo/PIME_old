@@ -1,7 +1,7 @@
 class SimpleBleDevice(object):
     """This is a class that implements the AB divergences between two discrete distributions. ABDivergences have been proposed in:
     
-    Parameters
+    Args
     ----------
 
     :param client: A handle to the :class:`simpleble.SimpleBleClient` client
@@ -37,7 +37,6 @@ class SimpleBleDevice(object):
         :math:`\mathbf{h1}(\mathbf{C1})` matrix in Eq. (6)
     hC2 : array-like, shape (nt, nt)
         :math:`\mathbf{h2}(\mathbf{C2})` matrix in Eq. (6)
-    .. _references-init-matrix:
 
     References
     ----------
