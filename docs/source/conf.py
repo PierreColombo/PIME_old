@@ -32,7 +32,10 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinxcontrib.bibtex',
 ]
-bibtex_bibfiles = ['refs.bib']
+
+bibtex_bibfiles = [os.path.abspath(
+    os.path.join(__file__, "pim")
+)]
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
