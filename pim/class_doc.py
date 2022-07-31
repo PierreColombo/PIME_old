@@ -34,7 +34,7 @@ class SimpleBleDevice(object):
     :return: updateCount: int, optional  See :cite:t:`1987:nelson` for an introduction to non-standard analysis Non-standard analysis is fun :cite:p:`1987:nelson`.
 
 
-    .. bibliography::
+    .. bibliography:: ref.bib
     """
 
     def __init__(self, client, addr=None, addrType=None, iface=0,
