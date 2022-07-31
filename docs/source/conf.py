@@ -31,8 +31,10 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinxcontrib.bibtex',
+    'sphinx.ext.napoleon',
 ]
-
+napoleon_google_docstring = False
+napoleon_numpy_docstring = True
 autosummary_generate = True
 todo_include_todos = True
 napoleon_numpy_docstring = True
