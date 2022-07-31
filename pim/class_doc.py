@@ -1,26 +1,8 @@
 class SimpleBleDevice(object):
-    """This is a class that implements the AB divergences between two discrete distributions.
-      ABDivergences have been proposed in:
-
-    @article{cichocki2011generalized,
-  title={Generalized alpha-beta divergences and their application to robust nonnegative matrix factorization},
-  author={Cichocki, Andrzej and Cruces, Sergio and Amari, Shun-ichi},
-  journal={Entropy},
-  volume={13},
-  number={1},
-  pages={134--170},
-  year={2011},
-  publisher={MDPI}
-  }
-
-    and has been used in:
-
-    @article{Colombo_Clavel_Piantanida_2022, title={InfoLM: A New Metric to Evaluate Summarization &;
-    Data2Text Generation}, volume={36}, url={https://ojs.aaai.org/index.php/AAAI/article/view/21299},
-    DOI={10.1609/aaai.v36i10.21299},
-    author={Colombo, Pierre Jean A. and Clavel, Chloé and Piantanida, Pablo},
-    year={2022}, month={Jun.}, pages={10554-10562}}
-
+    """This is a class that implements the AB divergences between two discrete distributions. ABDivergences have been proposed in:
+    
+    Parameters
+    ----------
 
     :param client: A handle to the :class:`simpleble.SimpleBleClient` client
         object that detected the device
@@ -48,7 +30,31 @@ class SimpleBleDevice(object):
     :type connectable: bool, optional
     :param updateCount: Integer count of the number of advertising packets
         received from the device so far, defaults to 0
+
+    Returns
+    -------
     :type updateCount: int, optional
+
+
+    Notes
+    -----
+    AB divergences have been proposed in 
+    @article{cichocki2011generalized,
+  title={Generalized alpha-beta divergences and their application to robust nonnegative matrix factorization},
+  author={Cichocki, Andrzej and Cruces, Sergio and Amari, Shun-ichi},
+  journal={Entropy},
+  volume={13},
+  number={1},
+  pages={134--170},
+  year={2011},
+  publisher={MDPI}
+  }
+    and has been used in:
+    @article{Colombo_Clavel_Piantanida_2022, title={InfoLM: A New Metric to Evaluate Summarization &;
+    Data2Text Generation}, volume={36}, url={https://ojs.aaai.org/index.php/AAAI/article/view/21299},
+    DOI={10.1609/aaai.v36i10.21299},
+    author={Colombo, Pierre Jean A. and Clavel, Chloé and Piantanida, Pablo},
+    year={2022}, month={Jun.}, pages={10554-10562}}
     """
 
     def __init__(self, client, addr=None, addrType=None, iface=0,
