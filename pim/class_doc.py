@@ -33,13 +33,14 @@ class SimpleBleDevice(object):
 
     Returns
     -------
+    
     :type updateCount: int, optional
 
 
     Notes
     -----
-    AB divergences have been proposed in :
-      ```bibtex @article{cichocki2011generalized,
+
+    AB divergences have been proposed in : ``` bibtex @article{cichocki2011generalized,
   title={Generalized alpha-beta divergences and their application to robust nonnegative matrix factorization},
   author={Cichocki, Andrzej and Cruces, Sergio and Amari, Shun-ichi},
   journal={Entropy},
@@ -48,7 +49,8 @@ class SimpleBleDevice(object):
   pages={134--170},
   year={2011},
   publisher={MDPI}
-  }```
+  } ```
+
     and has been used in:
     @article{Colombo_Clavel_Piantanida_2022, title={InfoLM: A New Metric to Evaluate Summarization &;
     Data2Text Generation}, volume={36}, url={https://ojs.aaai.org/index.php/AAAI/article/view/21299},
