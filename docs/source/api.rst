@@ -1,30 +1,24 @@
-
-
-
 Divergence Computation between two discret distributions
 ------------
 
 The ``RenyiDivergence`` class
 *****************************
 .. autoclass:: pim.divergence.RenyiDivergence
-    :members:
-    :undoc-members:
-    :show-inheritance:
+
 
 
 The ``BetaDivergence`` class
 *****************************
 .. autoclass:: pim.divergence.BetaDivergence
     :members:
-    :undoc-members:
-    :show-inheritance:
+
 
 The ``AlphaDivergence`` class
 *****************************
 .. autoclass:: pim.divergence.AlphaDivergence
     :members:
     :undoc-members:
-    :show-inheritance:
+
 
 
 The ``ABDivergence`` class
