@@ -2,4 +2,4 @@ from divergence import *
 from continuous_gaussian import *
 from entropy import *
 from mutual_information import *
-from utils import *
+from misc import *

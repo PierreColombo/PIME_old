@@ -4,7 +4,7 @@ import numpy as np
 import sys
 
 sys.path.append('../..')
-sys.path.append('../../utils/')
+sys.path.append('../../misc/')
 sys.path.append('../examples/')
 sys.path.append('../../examples/')
 sys.path.append('../../mutual_information/')

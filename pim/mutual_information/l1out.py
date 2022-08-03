@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from torch import Tensor
 import numpy as np
-from utils import utils
+import utils
 
 
 class L1OutUB(nn.Module):  # naive upper bound

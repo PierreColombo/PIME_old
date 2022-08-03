@@ -1,7 +1,9 @@
 import sys
 
 sys.path.append('mutual_information/')
-sys.path.append('../utils')
+sys.path.append('../misc/')
+sys.path.append('../entropy/')
+from utils import *
 from club import CLUB, CLUBSample
 from gaussian_fisher_rao import FisherRao
 from gaussian_frechet import Frechet
@@ -14,6 +16,7 @@ from mine import MINE
 from nwj import NWJ
 from tuba import TUBA
 from varub import VarUB
+
 
 MI_CONTINUOUS_ESTIMATORS = {
     'club': CLUB,

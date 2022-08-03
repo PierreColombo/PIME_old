@@ -1,5 +1,7 @@
-from utils.continuous_estimator import ContinuousEstimator
-from utils.helper import compute_mean, compute_cov
+import sys
+sys.path.append('../misc')
+from continuous_estimator import *
+from helpers import *
 import torch
 from torch import Tensor
 

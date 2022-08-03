@@ -1,5 +1,5 @@
 import torch
-from helper import FF
+from helpers import FF
 import torch.nn as nn
 import numpy as np
 from torch import Tensor
