@@ -4,8 +4,7 @@ from torch import Tensor
 
 
 class ABDivergence(DiscreteEstimator):
-    """ This is a class that implements the AB divergences between two discrete distributions.
-      ABDivergences have been proposed in [1] and used to measure similarity between sentences among others (see [2]).
+    """ This is a class that implements the AB divergences between two discrete distributions. ABDivergences have been proposed in [1] and used to measure similarity between sentences among others (see [2]).
 
     :param name: Name of the divergence usefull to save the results
     :type name: str
