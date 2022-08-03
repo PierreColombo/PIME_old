@@ -7,6 +7,7 @@ The ``RenyiDivergence`` class
 .. autoclass:: pim.ABDivergence
     :members:
     :undoc-members:
+    :show-inheritance:
 
 The ``RenyiDivergence`` class
 *****************************
