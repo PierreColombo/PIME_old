@@ -1,5 +1,5 @@
 Divergence Computation between two discret distributions
-------------
+--------------------------------------------------------
 
 The ``RenyiDivergence`` class
 *****************************
@@ -46,7 +46,7 @@ The ``LP`` class
 
 
 Mutual Information Computation between two r.v
-------------
+----------------------------------------------
 
 The ``MIKnife`` class
 *****************************
@@ -119,7 +119,7 @@ The ``VarUB`` class
 
 
 Differential and Discreat Entropy Estimation
-------------
+--------------------------------------------
 
 The ``DiscreteEntropyEstimator`` class
 *****************************
@@ -152,7 +152,7 @@ The ``EntropyDoe`` class
 
 
 Measure of Information under-multivariate gaussian assumption
-------------
+--------------------------------------------------------------
 
 
 The ``Frechet`` class
@@ -179,5 +179,5 @@ The ``JensenShannon`` class
 
 
 Utils used to combine measures of Information
-------------
+---------------------------------------------
 

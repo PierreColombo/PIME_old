@@ -5,6 +5,7 @@ from torch import Tensor
 
 class RenyiDivergence(DiscreteEstimator):
     """
+
     This is a class that implements the Renyi divergences between two discrete distributions.
       Renyi have been proposed in [8] andstudied in [7] and used to measure similarity between
        sentences among others (see [2]).
