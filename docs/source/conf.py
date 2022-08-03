@@ -16,7 +16,7 @@ sys.path.append(os.path.abspath(
     os.path.join(__file__, "../../pim")
 ))
 project = 'PIM'
-copyright = '2021, Graziella'
+copyright = '2022, Pierre COLOMBO'
 author = 'Pierre Colombo, Malik Boudiaf'
 
 release = '0.1'
