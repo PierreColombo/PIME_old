@@ -1,5 +1,7 @@
 import torch.nn as nn
-from ..misc.utils import PDF, compute_negative_ln_prob
+from ..entropy.entropy_doe import EntropyDoe
+from ..misc.utils import compute_negative_ln_prob
+
 import torch
 
 
@@ -63,8 +65,8 @@ class MIDOE(nn.Module):
 
       .. [13] Cheng, P., Hao, W., Dai, S., Liu, J., Gan, Z., & Carin, L. (2020, November). Club: A contrastive log-ratio upper bound of mutual information. In International conference on machine learning (pp. 1779-1788). PMLR.
     """
-    def __init__(self, x_dim: int, y_dim: int, hidden_size: int, pdf:str='gauss'):
 
+    def __init__(self, x_dim: int, y_dim: int, hidden_size: int, pdf: str = 'gauss'):
         """
         paper from
         :param dim:
@@ -72,7 +74,7 @@ class MIDOE(nn.Module):
         :param pdf:
         """
         super(MIDOE, self).__init__()
-        self.qY = PDF(y_dim, pdf)
+        self.qY = EntropyDoe(y_dim, pdf)
         self.qY_X = ConditionalPDF(x_dim, y_dim, pdf)
 
     def learning_loss(self, X, Y):
