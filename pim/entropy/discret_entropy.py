@@ -6,9 +6,9 @@ from torch import Tensor
 class DiscreteEntropyEstimator(DiscreteEstimator):
     """
     This is a class that implements the Entropy of a discrete distribution. The entropy calculation is based on a
-    divergence. Several cases are of interrest:
-    1. if the divergence is the KL divergence and Y is uniform the Entropy is the Shannon entropy.
-    2. if the divergence is the Renyi divergence and Y is uniform the Entropy is the Renyi Entropy.
+    divergence. Several cases are of interrest
+        * if the divergence is the KL divergence and Y is uniform the Entropy is the Shannon entropy.
+        * if the divergence is the Renyi divergence and Y is uniform the Entropy is the Renyi Entropy.
 
     :param name: Name of the Entropy usefull to save the results
     :type name: str

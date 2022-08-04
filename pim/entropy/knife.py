@@ -17,8 +17,7 @@ class KNIFE(nn.Module):
       References
       ----------
 
-      .. [20] Pichler, G., Colombo, P., Boudiaf, M., Koliander, G., & Piantanida, P. (2022). KNIFE: Kernelized-Neural
-      Differential Entropy Estimation. ICML 2022.
+      .. [20] Pichler, G., Colombo, P., Boudiaf, M., Koliander, G., & Piantanida, P. (2022). KNIFE: Kernelized-Neural Differential Entropy Estimation. ICML 2022.
     """
 
     def __init__(self, zc_dim: int, init_samples=None, optimize_mu: bool = True,
