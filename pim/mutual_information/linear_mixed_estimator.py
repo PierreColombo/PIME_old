@@ -8,17 +8,16 @@ import torch
 
 class LinearEstimator(MixedEstimator):
     """
-      This is a class that compute the Mutual information I(X;Y). In the special case where X and Y follows a gaussian
-      multivariate distribution. This has been used in [19] to build fair classifiers and learn disentangle
-      representations.
+    This is a class that compute the Mutual information I(X;Y).
+       In the special case where X and Y follows a gaussian multivariate distribution. This has been used in [19] to build fair classifiers and learn disentangle representations.
+
       :param name: name of the estimator
       :type x_dim:  str
 
       References
       ----------
 
-      .. [20] Boudiaf, M., Ziko, I., Rony, J., Dolz, J., Piantanida, P., & Ben Ayed, I. (2020). Information maximization
-       for few-shot learning. Advances in Neural Information Processing Systems, 33, 2445-2457.
+      .. [20] Boudiaf, M., Ziko, I., Rony, J., Dolz, J., Piantanida, P., & Ben Ayed, I. (2020). Information maximization for few-shot learning. Advances in Neural Information Processing Systems, 33, 2445-2457.
     """
 
     def __init__(self, classifier: Any, entropy_estimator: DiscreteEntropyEstimator):

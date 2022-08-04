@@ -5,7 +5,7 @@ from torch import Tensor
 
 class IProjector(DiscreteEstimator):
     """
-       This is a class that implements the I-projection based on any kind of information measure.
+    This is a class that implements the I-projection based on any kind of information measure.
        See [10] for a detailled survey it has been used to detect adversarial attacks among others (see [11]).
 
        :param name: Name of the divergence usefull to save the results
@@ -17,8 +17,7 @@ class IProjector(DiscreteEstimator):
        References
        ----------
 
-       .. [10] Csiszár, I., & Matus, F. (2003). Information projections revisited. IEEE Transactions on Information
-       Theory, 49(6), 1474-1490.
+       .. [10] Csiszár, I., & Matus, F. (2003). Information projections revisited. IEEE Transactions on Information Theory, 49(6), 1474-1490.
        .. [11] Picot, M, Piantanida, P. & Colombo, P (2022, July). An I-Projection-based Adversarial Attack Detector
        """
 

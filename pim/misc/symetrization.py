@@ -4,9 +4,8 @@ from torch import Tensor
 
 class JeffreySymetrizationEstimator(DiscreteEstimator):
     """
-    This is a class that implements the Jeffrey Symetrization trick applied to a divergence between two discrete
-     distributions. See [9] for a detailled survey it has been used to measure similarity between sentences
-      among others (see [2]).
+    This is a class that implements the Jeffrey Symetrization trick applied to a divergence between two discrete distributions.
+       See [9] for a detailled survey it has been used to measure similarity between sentences among others (see [2]).
 
     :param name: Name of the divergence usefull to save the results
     :type name: str
@@ -18,11 +17,8 @@ class JeffreySymetrizationEstimator(DiscreteEstimator):
     References
     ----------
 
-    .. [9] Basseville M. Divergence measures for statistical data processing—An annotated bibliography.
-    Signal Process. 2013;93:621–633. doi: 10.1016/j.sigpro.2012.09.003.
-    .. [2] Colombo, P. J. A., Clavel, C., & Piantanida, P. (2022, June). Infolm: A new metric to evaluate
-    summarization & data2text generation. In Proceedings of the AAAI Conference on Artificial Intelligence
-    (Vol. 36, No. 10, pp. 10554-10562).
+    .. [9] Basseville M. Divergence measures for statistical data processing—An annotated bibliography. Signal Process. 2013;93:621–633. doi: 10.1016/j.sigpro.2012.09.003.
+    .. [2] Colombo, P. J. A., Clavel, C., & Piantanida, P. (2022, June). Infolm: A new metric to evaluate summarization & data2text generation. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 36, No. 10, pp. 10554-10562).
     """
 
     def __init__(self, name, discret_estimator, **kwargs):
@@ -44,9 +40,8 @@ class JeffreySymetrizationEstimator(DiscreteEstimator):
 
 class JensenSymetrizationEstimator(DiscreteEstimator):
     """
-    This is a class that implements the Jensen Shannon Symetrization trick applied to a divergence between two discrete
-     distributions. See [9] for a detailled survey it has been used to measure similarity between sentences
-      among others (see [2]).
+    This is a class that implements the Jensen Shannon Symetrization trick applied to a divergence between two discrete distributions.
+       See [9] for a detailled survey it has been used to measure similarity between sentences among others (see [2]).
 
     :param name: Name of the divergence usefull to save the results
     :type name: str
@@ -57,11 +52,8 @@ class JensenSymetrizationEstimator(DiscreteEstimator):
     References
     ----------
 
-    .. [9] Basseville M. Divergence measures for statistical data processing—An annotated bibliography.
-    Signal Process. 2013;93:621–633. doi: 10.1016/j.sigpro.2012.09.003.
-    .. [2] Colombo, P. J. A., Clavel, C., & Piantanida, P. (2022, June). Infolm: A new metric to evaluate
-    summarization & data2text generation. In Proceedings of the AAAI Conference on Artificial Intelligence
-    (Vol. 36, No. 10, pp. 10554-10562).
+    .. [9] Basseville M. Divergence measures for statistical data processing—An annotated bibliography. Signal Process. 2013;93:621–633. doi: 10.1016/j.sigpro.2012.09.003.
+    .. [2] Colombo, P. J. A., Clavel, C., & Piantanida, P. (2022, June). Infolm: A new metric to evaluate summarization & data2text generation. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 36, No. 10, pp. 10554-10562).
     """
 
     def __init__(self, name: str, discret_estimator: DiscreteEstimator, **kwargs):

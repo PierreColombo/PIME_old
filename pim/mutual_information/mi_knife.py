@@ -6,9 +6,11 @@ from cond_knife import ConditionalKNIFE
 
 class MIKnife(nn.Module):
     """
-      This is a class that implements the estimator to I(X;Y) using the Kernel Estimator introduce in [20]. Two modes
-      are possible:
-      1.
+    This is a class that implements the estimator to I(X;Y) using the Kernel Estimator introduce in [20].
+      Two modes  are possible:
+         * Using two Kernels to compute $I(X;Y) = H(X) - H(X|Y)$
+         * Using three Kernels to compute  $I(X;Y) = - H(X,Y) + H(X) + H(Y)$
+
       :param x_dim: dimensions of samples from X
       :type x_dim:  int
       :param y_dim:dimensions of samples from Y
@@ -19,8 +21,7 @@ class MIKnife(nn.Module):
       References
       ----------
 
-      .. [20] Pichler, G., Colombo, P., Boudiaf, M., Koliander, G., & Piantanida, P. (2022). KNIFE: Kernelized-Neural
-      Differential Entropy Estimation. ICML 2022.
+      .. [20] Pichler, G., Colombo, P., Boudiaf, M., Koliander, G., & Piantanida, P. (2022). KNIFE: Kernelized-Neural Differential Entropy Estimation. ICML 2022.
     """
 
     def __init__(self, x_size, y_size, number_of_samples=128,

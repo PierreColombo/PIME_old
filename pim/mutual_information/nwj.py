@@ -7,6 +7,7 @@ import numpy as np
 class NWJ(nn.Module):
     """
       This is a class that implements the estimator [16] to I(X,Y).
+
       :param x_dim: dimensions of samples from X
       :type x_dim:  int
       :param y_dim:dimensions of samples from Y
@@ -17,8 +18,7 @@ class NWJ(nn.Module):
       References
       ----------
 
-      .. [16] Nguyen, X., Wainwright, M. J., and Jordan, M. I. Estimating divergence functionals and the
-      likelihood ratio by convex risk minimization. IEEE Transactions on Information Theory, 2010.
+      .. [16] Nguyen, X., Wainwright, M. J., and Jordan, M. I. Estimating divergence functionals and the likelihood ratio by convex risk minimization. IEEE Transactions on Information Theory, 2010.
     """
 
     def __init__(self, x_dim: int, y_dim: int, hidden_size: int):

@@ -7,7 +7,8 @@ import utils
 
 class L1OutUB(nn.Module):  # naive upper bound
     """
-      This is a class that implements the estimator [14] to I(X,Y).
+    This is a class that implements the estimator [14] to I(X,Y).
+
       :param x_dim: dimensions of samples from X
       :type x_dim:  int
       :param y_dim:dimensions of samples from Y
@@ -18,8 +19,7 @@ class L1OutUB(nn.Module):  # naive upper bound
       References
       ----------
 
-      .. [14] Poole, B., Ozair, S., Van Den Oord, A., Alemi, A., and ucker, G. On variational bounds of mutual information.
-    In ICML, 2019.
+      .. [14] Poole, B., Ozair, S., Van Den Oord, A., Alemi, A., and ucker, G. On variational bounds of mutual information. In ICML, 2019.
     """
 
     def __init__(self, x_dim: int, y_dim: int, hidden_size: int):
