@@ -11,7 +11,7 @@ The ``RenyiDivergence`` class
 
 The ``RenyiDivergence`` class
 *****************************
-.. autoclass:: pim.divergence.renyi_divergence.RenyiDivergence
+.. autoclass:: pim.divergence.renyi_div.RenyiDivergence
     :members:
     :undoc-members:
     :show-inheritance:
