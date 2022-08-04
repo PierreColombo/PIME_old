@@ -23,6 +23,13 @@ The ``RenyiDivergence`` class
     :undoc-members:
     :show-inheritance:
 
+The ``RenyiDivergence`` class
+*****************************
+.. autoclass:: renyi_div.RenyiDivergence
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 
 The ``BetaDivergence`` class
 *****************************
