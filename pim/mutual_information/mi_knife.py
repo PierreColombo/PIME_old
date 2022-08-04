@@ -1,7 +1,7 @@
 import torch.nn as nn
 import torch
-from knife import KNIFE
-from cond_knife import ConditionalKNIFE
+from pim.entropy.knife import KNIFE
+from pim.entropy.cond_knife import ConditionalKNIFE
 
 
 class MIKnife(nn.Module):

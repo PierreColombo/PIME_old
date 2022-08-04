@@ -1,5 +1,5 @@
-from ..misc.utils import MixedEstimator
-from ..misc.utils import DiscreteEntropyEstimator
+from ..abstract_class.mixed_estimator import MixedEstimator
+from ..abstract_class.discrete_estimator import DiscreteEntropyEstimator
 from typing import Any
 from copy import deepcopy
 from torch import Tensor
