@@ -15,10 +15,10 @@ class NWJ(nn.Module):
      :param hidden_size: the dimension of the hidden layer of the approximation network q(Y|X)
       :type hidden_size: int
 
-      References
-      ----------
+    References
+    ----------
 
-      .. [16] Nguyen, X., Wainwright, M. J., and Jordan, M. I. Estimating divergence functionals and the likelihood ratio by convex risk minimization. IEEE Transactions on Information Theory, 2010.
+    .. [16] Nguyen, X., Wainwright, M. J., and Jordan, M. I. Estimating divergence functionals and the likelihood ratio by convex risk minimization. IEEE Transactions on Information Theory, 2010.
     """
 
     def __init__(self, x_dim: int, y_dim: int, hidden_size: int):

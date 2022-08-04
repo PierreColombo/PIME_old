@@ -12,8 +12,8 @@ class JensenShannon(ContinuousEstimator):
       :param name: name of the estimator
       :type x_dim:  str
 
-      References
-      ----------
+    References
+    ----------
 
       .. [19] Pierre Colombo, Guillaume Staerman, Nathan Noiry, and Pablo Piantanida. 2022. Learning Disentangled Textual Representations via Statistical Measures of Similarity. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 2614–2630, Dublin, Ireland. Association for Computational Linguistics.
     """

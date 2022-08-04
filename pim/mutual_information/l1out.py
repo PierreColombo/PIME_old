@@ -16,8 +16,8 @@ class L1OutUB(nn.Module):  # naive upper bound
      :param hidden_size: the dimension of the hidden layer of the approximation network q(Y|X)
       :type hidden_size: int
 
-      References
-      ----------
+    References
+    ----------
 
       .. [14] Poole, B., Ozair, S., Van Den Oord, A., Alemi, A., and ucker, G. On variational bounds of mutual information. In ICML, 2019.
     """

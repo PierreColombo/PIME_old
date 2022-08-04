@@ -14,8 +14,8 @@ class LinearEstimator(MixedEstimator):
       :param name: name of the estimator
       :type x_dim:  str
 
-      References
-      ----------
+    References
+    ----------
 
       .. [20] Boudiaf, M., Ziko, I., Rony, J., Dolz, J., Piantanida, P., & Ben Ayed, I. (2020). Information maximization for few-shot learning. Advances in Neural Information Processing Systems, 33, 2445-2457.
     """

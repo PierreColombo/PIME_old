@@ -16,10 +16,10 @@ class ConditionalKNIFE(nn.Module):
      :param hidden_size: the dimension of the hidden layer of the approximation network q(Y|X)
       :type hidden_size: int
 
-      References
-      ----------
+    References
+    ----------
 
-      .. [20] Pichler, G., Colombo, P., Boudiaf, M., Koliander, G., & Piantanida, P. (2022). KNIFE: Kernelized-Neural Differential Entropy Estimation. ICML 2022.
+    .. [20] Pichler, G., Colombo, P., Boudiaf, M., Koliander, G., & Piantanida, P. (2022). KNIFE: Kernelized-Neural Differential Entropy Estimation. ICML 2022.
     """
 
     def __init__(self, device,

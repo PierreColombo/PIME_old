@@ -15,8 +15,8 @@ class VarUB(nn.Module):
      :param hidden_size: the dimension of the hidden layer of the approximation network q(Y|X)
       :type hidden_size: int
 
-      References
-      ----------
+    References
+    ----------
 
       .. [18] Alemi, A. A., Fischer, I., Dillon, J. V., and Murphy, K. Deep variational information bottleneck. arXiv,abs/1612.00410, 2016.
     """

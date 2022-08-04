@@ -60,10 +60,10 @@ class MIDOE(nn.Module):
      :param hidden_size: the dimension of the hidden layer of the approximation network q(Y|X)
       :type hidden_size: int
 
-      References
-      ----------
+    References
+    ----------
 
-      .. [13] Cheng, P., Hao, W., Dai, S., Liu, J., Gan, Z., & Carin, L. (2020, November). Club: A contrastive log-ratio upper bound of mutual information. In International conference on machine learning (pp. 1779-1788). PMLR.
+    .. [13] Cheng, P., Hao, W., Dai, S., Liu, J., Gan, Z., & Carin, L. (2020, November). Club: A contrastive log-ratio upper bound of mutual information. In International conference on machine learning (pp. 1779-1788). PMLR.
     """
 
     def __init__(self, x_dim: int, y_dim: int, hidden_size: int, pdf: str = 'gauss'):

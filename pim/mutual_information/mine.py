@@ -15,11 +15,11 @@ class MINE(nn.Module):
      :param hidden_size: the dimension of the hidden layer of the approximation network q(Y|X)
       :type hidden_size: int
 
-      References
-      ----------
+    References
+    ----------
 
-      .. [17] Belghazi, I., Rajeswar, S., Baratin, A., Hjelm, R. D., and Courville, A. C. MINE: mutual information neural estimation. arXiv, abs/1801.04062, 2018.
-      .. [21] Colombo, P., Chapuis, E., Labeau, M., & Clavel, C. (2021). Improving multimodal fusion via mutual dependency maximisation. EMNLP2021
+    .. [17] Belghazi, I., Rajeswar, S., Baratin, A., Hjelm, R. D., and Courville, A. C. MINE: mutual information neural estimation. arXiv, abs/1801.04062, 2018.
+    .. [21] Colombo, P., Chapuis, E., Labeau, M., & Clavel, C. (2021). Improving multimodal fusion via mutual dependency maximisation. EMNLP2021
 
     """
 

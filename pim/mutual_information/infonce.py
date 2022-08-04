@@ -17,8 +17,8 @@ class InfoNCE(nn.Module):
      :param hidden_size: the dimension of the hidden layer of the approximation network q(Y|X)
       :type hidden_size: int
 
-      References
-      ----------
+    References
+    ----------
 
       .. [14] Oord, A. V. D., Li, Y., & Vinyals, O. (2018). Representation learning with contrastive predictive coding. arXiv preprint arXiv:1807.03748
       .. [22] Colombo, P., Chapuis, E., Labeau, M., & Clavel, C. (2021, November). Code-switched inspired losses for spoken dialog representations. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (pp. 8320-8337).
