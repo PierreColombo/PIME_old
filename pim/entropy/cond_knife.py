@@ -7,7 +7,7 @@ from torch import Tensor
 
 class ConditionalKNIFE(nn.Module):
     """
-      This is a class that implements the estimator [20] to H(X|Y).
+    This is a class that implements the estimator [20] to H(X|Y).
 
       :param x_dim: dimensions of samples from X
       :type x_dim:  int

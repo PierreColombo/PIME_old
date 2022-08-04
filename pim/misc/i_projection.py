@@ -14,8 +14,8 @@ class IProjector(DiscreteEstimator):
        :param kwargs: divergence parameters
        :type kwargs: dict
 
-       References
-       ----------
+    References
+    ----------
 
        .. [10] Csiszár, I., & Matus, F. (2003). Information projections revisited. IEEE Transactions on Information Theory, 49(6), 1474-1490.
        .. [11] Picot, M, Piantanida, P. & Colombo, P (2022, July). An I-Projection-based Adversarial Attack Detector

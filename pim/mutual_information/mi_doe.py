@@ -51,7 +51,7 @@ class ConditionalPDF(nn.Module):
 
 class MIDOE(nn.Module):
     """
-      This is a class that implements the estimator [13] to I(X,Y).
+    This is a class that implements the estimator [13] to I(X,Y).
 
       :param x_dim: dimensions of samples from X
       :type x_dim:  int

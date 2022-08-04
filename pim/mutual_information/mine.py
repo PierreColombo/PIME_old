@@ -5,7 +5,7 @@ from torch import Tensor
 
 class MINE(nn.Module):
     """
-      This is a class that implements the estimator [17] to I(X,Y).
+    This is a class that implements the estimator [17] to I(X,Y).
       It has been used in many applications including multimodal learning.
 
       :param x_dim: dimensions of samples from X

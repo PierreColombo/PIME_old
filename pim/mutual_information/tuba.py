@@ -6,7 +6,7 @@ import numpy as np
 
 class TUBA(nn.Module):
     """
-      This is a class that implements the estimator [15] to I(X,Y).
+    This is a class that implements the estimator [15] to I(X,Y).
 
       :param x_dim: dimensions of samples from X
       :type x_dim:  int
