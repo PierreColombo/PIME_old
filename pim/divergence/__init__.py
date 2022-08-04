@@ -2,6 +2,9 @@ import sys
 sys.path.append('../discrete/')
 sys.path.append('../misc/')
 sys.path.append('../entropy/')
+sys.path.append('../divergence/')
+sys.path.append('../continuous_gaussian/')
+sys.path.append('../mutual_information/')
 from ab_div import ABDivergence
 from alpha_div import AlphaDivergence
 from renyi_div import RenyiDivergence
