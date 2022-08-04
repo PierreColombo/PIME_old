@@ -15,7 +15,31 @@ To use Lumache, first install it using pip:
 
 Computing MI measure between two continuous R.V
 ----------------
->>> import pim
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
 >>> import torch
 >>> N = 5
 >>> KL_div = pim.example.KL()
@@ -44,7 +68,31 @@ Computing MI measure between two continuous R.V
 
 Computing the differential Entropy of a R.V
 ----------------
->>> import pim
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
 >>> import torch
 >>> N = 5
 >>> KL_div = pim.example.KL()
@@ -73,7 +121,31 @@ Computing the differential Entropy of a R.V
 
 Computing the MI as a difference of two Entropy
 ----------------
->>> import pim
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
 >>> import torch
 >>> N = 5
 >>> KL_div = pim.example.KL()
@@ -110,6 +182,4956 @@ You can use for example the KL divergence ``pim.example.KL``:
 .. autofunction::pim.example.KL
 
 For example:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pimms.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pimms.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pimms.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pimms.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pimms.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pimms.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pimms.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pimms.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pimms.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pimms.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pimms.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pimms.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pim
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import lumache
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
+
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+
+
+Many more discrepancy measures are available such as:
 
 >>> import pim
 >>> import torch
@@ -278,7 +5300,31 @@ Many more discrepancy measures are available such as:
 
 Computing MI measure between a continuous and a discret R.V
 ----------------
->>> import pim
+>>> import pimms
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
+>>> import torch
+>>> N = 5
+>>> KL_div = pim.example.KL()
+>>> reference_distribution = torch.tensor([1/N]*N)
+>>> input_distribution = torch.random(N)
+>>> KL_div.predict(reference_distribution,input_distribution)
 >>> import torch
 >>> N = 5
 >>> KL_div = pim.example.KL()

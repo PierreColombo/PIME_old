@@ -1,4 +1,4 @@
-from pim.abstract_class.discrete_estimator import DiscreteEstimator
+from pimms.abstract_class.discrete_estimator import DiscreteEstimator
 import torch
 from torch import Tensor
 class BetaDivergence(DiscreteEstimator):

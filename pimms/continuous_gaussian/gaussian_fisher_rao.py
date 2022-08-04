@@ -1,4 +1,4 @@
-from pim.abstract_class.continuous_estimator import ContinuousEstimator
+from pimms.abstract_class.continuous_estimator import ContinuousEstimator
 from ..misc.helpers import compute_mean, compute_cov
 import torch
 from torch import Tensor

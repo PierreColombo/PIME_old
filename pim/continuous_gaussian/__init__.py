@@ -1,3 +1,0 @@
-from pim.continuous_gaussian.gaussian_js import JensenShannon
-from pim.continuous_gaussian.gaussian_frechet import Frechet
-from pim.continuous_gaussian.gaussian_fisher_rao import FisherRao

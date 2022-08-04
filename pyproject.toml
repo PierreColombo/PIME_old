@@ -1,8 +1,19 @@
-[build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
-
 [project]
-name = "lumache"
-authors = [{ name = "Pierre Colombo", email = "pierre.colombo@gmail.com" }]
-dynamic = ["version", "description"]
+name = "PIMMS"
+version = "0.0.1"
+authors = [
+  { name="Colombo Pierre, Malik Boudiaf", email="colombo.pierre@gmail.com"},
+]
+description = "PIM: Python Information Measure"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://pime.readthedocs.io/en/latest/"
+"Bug Tracker" = "https://github.com/PierreColombo/PIME"
