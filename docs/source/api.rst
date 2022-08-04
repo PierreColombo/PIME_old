@@ -1,3 +1,56 @@
+
+Divergence Computation between two discret distributions
+------------
+
+The ``RenyiDivergence`` class
+*****************************
+.. autoclass:: pim.divergence.RenyiDivergence
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+The ``BetaDivergence`` class
+*****************************
+.. autoclass:: pim.divergence.BetaDivergence
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+The ``AlphaDivergence`` class
+*****************************
+.. autoclass:: pim.divergence.AlphaDivergence
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+The ``ABDivergence`` class
+*****************************
+.. autoclass:: pim.divergence.ABDivergence
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+
+The ``FisherRao`` class
+*****************************
+.. autoclass:: pim.divergence.FisherRao
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+The ``LP`` class
+*****************************
+.. autoclass:: pim.divergence.LP
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+
+
 Measure of Information under-multivariate gaussian assumption
 ------------
 
