@@ -14,7 +14,7 @@ Contents
 --------
 
 .. toctree::
-
    quick_start
    examples
    api
+   contributors
