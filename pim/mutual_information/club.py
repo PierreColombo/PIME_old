@@ -1,6 +1,9 @@
+from typing import Tuple
+
 import torch.nn as nn
 import torch
 from torch import Tensor
+
 
 
 class CLUB(nn.Module):  # CLUB: Mutual Information Contrastive Learning Upper Bound
@@ -32,7 +35,7 @@ class CLUB(nn.Module):  # CLUB: Mutual Information Contrastive Learning Upper Bo
                                       nn.Linear(hidden_size // 2, y_dim),
                                       nn.Tanh())
 
-    def get_mu_logvar(self, x_samples: Tensor) -> tuple[Tensor, Tensor]:
+    def get_mu_logvar(self, x_samples: Tensor) -> Tuple[Tensor, Tensor]:
         mu = self.p_mu(x_samples)
         logvar = self.p_logvar(x_samples)
         return mu, logvar
@@ -96,7 +99,7 @@ class CLUBSample(nn.Module):  # Sampled version of the CLUB estimator
                                       nn.Linear(hidden_size // 2, y_dim),
                                       nn.Tanh())
 
-    def get_mu_logvar(self, x_samples: Tensor)-> tuple[Tensor, Tensor]:
+    def get_mu_logvar(self, x_samples: Tensor)-> Tuple[Tensor, Tensor]:
         mu = self.p_mu(x_samples)
         logvar = self.p_logvar(x_samples)
         return mu, logvar
