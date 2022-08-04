@@ -16,6 +16,13 @@ The ``RenyiDivergence`` class
     :undoc-members:
     :show-inheritance:
 
+The ``RenyiDivergence`` class
+*****************************
+.. autoclass:: RenyiDivergence
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 
 The ``BetaDivergence`` class
 *****************************
