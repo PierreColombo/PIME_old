@@ -1,4 +1,3 @@
-
 Mutual Information Computation between two r.v
 ------------
 
@@ -185,3 +184,29 @@ The ``EntropyDoe`` class
     :show-inheritance:
 
 
+
+Utils for combining the Measure of Information
+----------------------------------------------
+
+
+The ``JeffreySymetrizationEstimator`` class
+*****************************
+.. autoclass:: pim.misc.JeffreySymetrizationEstimator
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+The ``JensenSymetrizationEstimator`` class
+*****************************
+.. autoclass:: pim.misc.JensenSymetrizationEstimator
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+The ``IProjector`` class
+*****************************
+.. autoclass:: pim.misc.IProjector
+    :members:
+    :undoc-members:
+    :show-inheritance:
