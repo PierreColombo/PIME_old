@@ -12,7 +12,7 @@ class KNIFE(nn.Module):
       :type x_dim:  int
       :param y_dim:dimensions of samples from Y
       :type y_dim: int
-     :param hidden_size: the dimension of the hidden layer of the approximation network q(Y|X)
+      :param hidden_size: the dimension of the hidden layer of the approximation network q(Y|X)
       :type hidden_size: int
 
       References

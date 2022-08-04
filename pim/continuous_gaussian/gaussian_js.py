@@ -6,19 +6,16 @@ from torch import Tensor
 
 class JensenShannon(ContinuousEstimator):
     """
-      This is a class that compute the JS divergence. In the special case where X and Y follows a gaussian
-      multivariate distribution. This has been used in [19] to build fair classifiers and learn disentangle
-      representations.
+      This is a class that compute the JS divergence.
+      In the special case where X and Y follows a gaussian multivariate distribution. This has been used in [19] to build fair classifiers and learn disentangle representations.
+
       :param name: name of the estimator
       :type x_dim:  str
 
       References
       ----------
 
-      .. [19] Pierre Colombo, Guillaume Staerman, Nathan Noiry, and Pablo Piantanida. 2022. Learning Disentangled
-      Textual Representations via Statistical Measures of Similarity. In Proceedings of the 60th Annual Meeting of
-      the Association for Computational Linguistics (Volume 1: Long Papers), pages 2614–2630, Dublin, Ireland.
-      Association for Computational Linguistics.
+      .. [19] Pierre Colombo, Guillaume Staerman, Nathan Noiry, and Pablo Piantanida. 2022. Learning Disentangled Textual Representations via Statistical Measures of Similarity. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 2614–2630, Dublin, Ireland. Association for Computational Linguistics.
     """
 
     def __init__(self, name: str):
