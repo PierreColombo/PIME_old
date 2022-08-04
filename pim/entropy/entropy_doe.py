@@ -1,4 +1,4 @@
-from utils import compute_negative_ln_prob
+from ..misc.utils import compute_negative_ln_prob
 import torch.nn as nn
 
 
