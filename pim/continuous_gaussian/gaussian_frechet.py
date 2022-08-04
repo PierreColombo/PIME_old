@@ -1,5 +1,5 @@
-from continuous_estimator import ContinuousEstimator
-from helpers import compute_mean, compute_cov
+from ..misc.continuous_estimator import ContinuousEstimator
+from ..misc.helpers import compute_mean, compute_cov
 import torch
 from torch import Tensor
 class Frechet(ContinuousEstimator):

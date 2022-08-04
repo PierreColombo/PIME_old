@@ -1,7 +1,8 @@
-from continuous_estimator import ContinuousEstimator
-from helpers import compute_mean, compute_cov
+from ..misc.continuous_estimator import ContinuousEstimator
+from ..misc.helpers import compute_mean, compute_cov
 import torch
 from torch import Tensor
+
 
 class JensenShannon(ContinuousEstimator):
     """
@@ -19,10 +20,11 @@ class JensenShannon(ContinuousEstimator):
       the Association for Computational Linguistics (Volume 1: Long Papers), pages 2614–2630, Dublin, Ireland.
       Association for Computational Linguistics.
     """
-    def __init__(self, name:str):
+
+    def __init__(self, name: str):
         self.name = name
 
-    def forward(self, X:Tensor, Y:Tensor)->Tensor:
+    def forward(self, X: Tensor, Y: Tensor) -> Tensor:
         """
         :param X: Input distribution
         :type X: Tensor (B*hidden size)
@@ -52,4 +54,3 @@ class JensenShannon(ContinuousEstimator):
 
         js = -2 * d + (log_det_0_det_1 + tr_1_0 + last_1 + log_det_1_det_0 + tr_0_1 + last_0)
         return js / 4
-
