@@ -1,4 +1,4 @@
-from discrete_estimator import DiscreteEstimator
+from pim.abstract_class.discrete_estimator import DiscreteEstimator
 from torch import Tensor
 
 

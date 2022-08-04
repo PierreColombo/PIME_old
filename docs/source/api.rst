@@ -210,3 +210,29 @@ The ``IProjector`` class
     :members:
     :undoc-members:
     :show-inheritance:
+
+
+Abstract classes for adding your own estimator
+----------------------------------------------
+
+The ``DiscreteEstimator`` class
+*****************************
+.. autoclass:: pim.abstract_class.DiscreteEstimator
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+The ``ContinuousEstimator`` class
+*****************************
+.. autoclass:: pim.abstract_class.ContinuousEstimator
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+The ``MixedEstimator`` class
+*****************************
+.. autoclass:: pim.abstract_class.MixedEstimator
+    :members:
+    :undoc-members:
+    :show-inheritance:
