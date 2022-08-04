@@ -1,5 +1,5 @@
-from utils.continuous_estimator import ContinuousEstimator
-from utils.helper import compute_mean, compute_cov
+from continuous_estimator import ContinuousEstimator
+from helpers import compute_mean, compute_cov
 import torch
 from torch import Tensor
 
