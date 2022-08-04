@@ -14,11 +14,8 @@ class KullbackLeiblerDivergence(DiscreteEstimator):
     References
     ----------
 
-    .. [6] Shannon, C. E. (1948). A mathematical theory of communication. The Bell system technical journal, 27(3),
-    379-423.
-    .. [2] Colombo, P. J. A., Clavel, C., & Piantanida, P. (2022, June). Infolm: A new metric to evaluate
-    summarization & data2text generation. In Proceedings of the AAAI Conference on Artificial Intelligence
-    (Vol. 36, No. 10, pp. 10554-10562).
+    .. [6] Shannon, C. E. (1948). A mathematical theory of communication. The Bell system technical journal, 27(3), 379-423.
+    .. [2] Colombo, P. J. A., Clavel, C., & Piantanida, P. (2022, June). Infolm: A new metric to evaluate summarization & data2text generation. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 36, No. 10, pp. 10554-10562).
     """
 
     def __init__(self, name: str):

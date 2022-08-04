@@ -8,6 +8,7 @@ from torch import Tensor
 class ConditionalKNIFE(nn.Module):
     """
       This is a class that implements the estimator [20] to H(X|Y).
+
       :param x_dim: dimensions of samples from X
       :type x_dim:  int
       :param y_dim:dimensions of samples from Y
@@ -18,8 +19,7 @@ class ConditionalKNIFE(nn.Module):
       References
       ----------
 
-      .. [20] Pichler, G., Colombo, P., Boudiaf, M., Koliander, G., & Piantanida, P. (2022). KNIFE: Kernelized-Neural
-      Differential Entropy Estimation. ICML 2022.
+      .. [20] Pichler, G., Colombo, P., Boudiaf, M., Koliander, G., & Piantanida, P. (2022). KNIFE: Kernelized-Neural Differential Entropy Estimation. ICML 2022.
     """
 
     def __init__(self, device,

@@ -4,7 +4,7 @@ from torch import Tensor
 class BetaDivergence(DiscreteEstimator):
     """
     This is a class that implements the $\beta$-divergences between two discrete distributions.
-      $\beta$-divergences have been proposed in [4] and used to measure similarity between sentences among others (see [2]).
+      $\{beta}$-divergences have been proposed in [4] and used to measure similarity between sentences among others (see [2]).
 
     :param name: Name of the divergence usefull to save the results
     :type name: str
@@ -14,11 +14,8 @@ class BetaDivergence(DiscreteEstimator):
     References
     ----------
 
-    .. [4] A. Basu, I. R. Harris, N. L. Hjort, and M. C. Jones. Robust and efficient estimation by minimising a
-    density power divergence. Biometrika, 85(3):549–559, Sep. 1998.
-    .. [2] Colombo, P. J. A., Clavel, C., & Piantanida, P. (2022, June). Infolm: A new metric to evaluate
-    summarization & data2text generation. In Proceedings of the AAAI Conference on Artificial Intelligence
-    (Vol. 36, No. 10, pp. 10554-10562).
+    .. [4] A. Basu, I. R. Harris, N. L. Hjort, and M. C. Jones. Robust and efficient estimation by minimising a density power divergence. Biometrika, 85(3):549–559, Sep. 1998.
+    .. [2] Colombo, P. J. A., Clavel, C., & Piantanida, P. (2022, June). Infolm: A new metric to evaluate summarization & data2text generation. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 36, No. 10, pp. 10554-10562).
     """
     def __init__(self, name: str, beta:float):
         self.name = name

@@ -13,11 +13,8 @@ class FisherRao(DiscreteEstimator):
     References
     ----------
 
-    .. [5] Picot, M., Messina, F., Boudiaf, M., Labeau, F., Ayed, I. B., & Piantanida, P. (2022). Adversarial
-    Robustness via Fisher-Rao Regularization. IEEE Transactions on Pattern Analysis and Machine Intelligence.
-    .. [2] Colombo, P. J. A., Clavel, C., & Piantanida, P. (2022, June). Infolm: A new metric to evaluate
-    summarization & data2text generation. In Proceedings of the AAAI Conference on Artificial Intelligence
-    (Vol. 36, No. 10, pp. 10554-10562).
+    .. [5] Picot, M., Messina, F., Boudiaf, M., Labeau, F., Ayed, I. B., & Piantanida, P. (2022). Adversarial Robustness via Fisher-Rao Regularization. IEEE Transactions on Pattern Analysis and Machine Intelligence.
+    .. [2] Colombo, P. J. A., Clavel, C., & Piantanida, P. (2022, June). Infolm: A new metric to evaluate summarization & data2text generation. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 36, No. 10, pp. 10554-10562).
     """
     def __init__(self, name: str):
         self.name = name

@@ -7,6 +7,7 @@ from torch import Tensor
 class KNIFE(nn.Module):
     """
       This is a class that implements the estimator [20] to H(X).
+
       :param x_dim: dimensions of samples from X
       :type x_dim:  int
       :param y_dim:dimensions of samples from Y

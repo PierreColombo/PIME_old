@@ -16,9 +16,7 @@ class AlphaDivergence(DiscreteEstimator):
     ----------
 
     .. [3] Rényi, A. (1970). Probability Theory. North-Holland Publishing Company, Amsterdam.
-    .. [2] Colombo, P. J. A., Clavel, C., & Piantanida, P. (2022, June). Infolm: A new metric to evaluate
-    summarization & data2text generation. In Proceedings of the AAAI Conference on Artificial Intelligence
-    (Vol. 36, No. 10, pp. 10554-10562).
+    .. [2] Colombo, P. J. A., Clavel, C., & Piantanida, P. (2022, June). Infolm: A new metric to evaluate summarization & data2text generation. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 36, No. 10, pp. 10554-10562).
     """
 
     def __init__(self, name: str, alpha: float):

@@ -5,10 +5,8 @@ from torch import Tensor
 
 class RenyiDivergence(DiscreteEstimator):
     """
-
     This is a class that implements the Renyi divergences between two discrete distributions.
-      Renyi have been proposed in [8] andstudied in [7] and used to measure similarity between
-       sentences among others (see [2]).
+      Renyi have been proposed in [8] andstudied in [7] and used to measure similarity between sentences among others (see [2]).
 
     :param name: Name of the divergence usefull to save the results
     :type name: str
@@ -18,13 +16,9 @@ class RenyiDivergence(DiscreteEstimator):
     References
     ----------
 
-    .. [7] Van Erven, T., & Harremos, P. (2014). Rényi divergence and Kullback-Leibler divergence.
-    IEEE Transactions on Information Theory, 60(7), 3797-3820.
-    .. [8] A. Rényi, “On measures of entropy and information,” in Proc. 4th
-Berkeley Symp. Math. Statist. and Probability, vol. 1. 1961, pp. 547–561.
-    .. [2] Colombo, P. J. A., Clavel, C., & Piantanida, P. (2022, June). Infolm: A new metric to evaluate
-    summarization & data2text generation. In Proceedings of the AAAI Conference on Artificial Intelligence
-    (Vol. 36, No. 10, pp. 10554-10562).
+    .. [7] Van Erven, T., & Harremos, P. (2014). Rényi divergence and Kullback-Leibler divergence. IEEE Transactions on Information Theory, 60(7), 3797-3820.
+    .. [8] A. Rényi, “On measures of entropy and information,” in Proc. 4th Berkeley Symp. Math. Statist. and Probability, vol. 1. 1961, pp. 547–561.
+    .. [2] Colombo, P. J. A., Clavel, C., & Piantanida, P. (2022, June). Infolm: A new metric to evaluate summarization & data2text generation. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 36, No. 10, pp. 10554-10562).
     """
 
     def __init__(self, name: str, alpha: float):
