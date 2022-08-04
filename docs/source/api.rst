@@ -1,4 +1,75 @@
 
+Mutual Information Computation between two r.v
+------------
+
+The ``MIKnife`` class
+*****************************
+.. autoclass:: pim.mutual_information.MIKnife
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+The ``TUBA`` class
+*****************************
+.. autoclass:: pim.mutual_information.TUBA
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+The ``NWJ`` class
+*****************************
+.. autoclass:: pim.mutual_information.NWJ
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+The ``MINE`` class
+*****************************
+.. autoclass:: pim.mutual_information.MINE
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+
+The ``L1OutUB`` class
+*****************************
+.. autoclass:: pim.mutual_information.L1OutUB
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+The ``InfoNCE`` class
+*****************************
+.. autoclass:: pim.mutual_information.InfoNCE
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+The ``CLUB`` class
+*****************************
+.. autoclass:: pim.mutual_information.CLUB
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+The ``CLUBSample`` class
+*****************************
+.. autoclass:: pim.mutual_information.CLUBSample
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+The ``VarUB`` class
+*****************************
+.. autoclass:: pim.mutual_information.VarUB
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 Divergence Computation between two discret distributions
 ------------
 
