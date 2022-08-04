@@ -1,6 +1,6 @@
 import torch.nn as nn
-from utils import *
-
+import torch
+import math
 
 def log_sum_exp(value, dim=None, keepdim=False):
     """Numerically stable implementation of the operation
