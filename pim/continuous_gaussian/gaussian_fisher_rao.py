@@ -6,7 +6,7 @@ from torch import Tensor
 
 class FisherRao(ContinuousEstimator):
     """
-      This is a class that compute the Fisher Rao Distance.
+    This is a class that compute the Fisher Rao Distance.
       In the special case where X and Y follows a gaussian multivariate distribution. This has been used in [19] to build fair classifiers and learn disentangled  representations.
 
       :param name: name of the estimator

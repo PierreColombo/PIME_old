@@ -6,7 +6,7 @@ from torch import Tensor
 
 class JensenShannon(ContinuousEstimator):
     """
-      This is a class that compute the JS divergence.
+    This is a class that compute the JS divergence.
       In the special case where X and Y follows a gaussian multivariate distribution. This has been used in [19] to build fair classifiers and learn disentangle representations.
 
       :param name: name of the estimator

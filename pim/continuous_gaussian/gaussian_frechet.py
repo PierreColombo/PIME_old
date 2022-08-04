@@ -4,7 +4,7 @@ import torch
 from torch import Tensor
 class Frechet(ContinuousEstimator):
     """
-      This is a class that compute the Frechet Distance.
+    This is a class that compute the Frechet Distance.
       In the special case where X and Y follows a gaussian multivariate distribution. This has been used in [19] to build fair classifiers and learn disentangle representations.
 
 
