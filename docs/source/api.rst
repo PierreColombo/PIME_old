@@ -3,7 +3,7 @@ Mutual Information Computation between two r.v
 
 The ``MIKnife`` class
 *****************************
-.. autoclass:: pim.mutual_information.MIKnife
+.. autoclass:: pimms.mutual_information.MIKnife
     :members:
     :undoc-members:
     :show-inheritance:
@@ -11,14 +11,14 @@ The ``MIKnife`` class
 
 The ``TUBA`` class
 *****************************
-.. autoclass:: pim.mutual_information.TUBA
+.. autoclass:: pimms.mutual_information.TUBA
     :members:
     :undoc-members:
     :show-inheritance:
 
 The ``NWJ`` class
 *****************************
-.. autoclass:: pim.mutual_information.NWJ
+.. autoclass:: pimms.mutual_information.NWJ
     :members:
     :undoc-members:
     :show-inheritance:
@@ -26,7 +26,7 @@ The ``NWJ`` class
 
 The ``MINE`` class
 *****************************
-.. autoclass:: pim.mutual_information.MINE
+.. autoclass:: pimms.mutual_information.MINE
     :members:
     :undoc-members:
     :show-inheritance:
@@ -35,14 +35,14 @@ The ``MINE`` class
 
 The ``L1OutUB`` class
 *****************************
-.. autoclass:: pim.mutual_information.L1OutUB
+.. autoclass:: pimms.mutual_information.L1OutUB
     :members:
     :undoc-members:
     :show-inheritance:
 
 The ``InfoNCE`` class
 *****************************
-.. autoclass:: pim.mutual_information.InfoNCE
+.. autoclass:: pimms.mutual_information.InfoNCE
     :members:
     :undoc-members:
     :show-inheritance:
@@ -50,21 +50,21 @@ The ``InfoNCE`` class
 
 The ``CLUB`` class
 *****************************
-.. autoclass:: pim.mutual_information.CLUB
+.. autoclass:: pimms.mutual_information.CLUB
     :members:
     :undoc-members:
     :show-inheritance:
 
 The ``CLUBSample`` class
 *****************************
-.. autoclass:: pim.mutual_information.CLUBSample
+.. autoclass:: pimms.mutual_information.CLUBSample
     :members:
     :undoc-members:
     :show-inheritance:
 
 The ``VarUB`` class
 *****************************
-.. autoclass:: pim.mutual_information.VarUB
+.. autoclass:: pimms.mutual_information.VarUB
     :members:
     :undoc-members:
     :show-inheritance:
@@ -74,7 +74,7 @@ Divergence Computation between two discret distributions
 
 The ``RenyiDivergence`` class
 *****************************
-.. autoclass:: pim.divergence.RenyiDivergence
+.. autoclass:: pimms.divergence.RenyiDivergence
     :members:
     :undoc-members:
     :show-inheritance:
@@ -82,14 +82,14 @@ The ``RenyiDivergence`` class
 
 The ``BetaDivergence`` class
 *****************************
-.. autoclass:: pim.divergence.BetaDivergence
+.. autoclass:: pimms.divergence.BetaDivergence
     :members:
     :undoc-members:
     :show-inheritance:
 
 The ``AlphaDivergence`` class
 *****************************
-.. autoclass:: pim.divergence.AlphaDivergence
+.. autoclass:: pimms.divergence.AlphaDivergence
     :members:
     :undoc-members:
     :show-inheritance:
@@ -97,7 +97,7 @@ The ``AlphaDivergence`` class
 
 The ``ABDivergence`` class
 *****************************
-.. autoclass:: pim.divergence.ABDivergence
+.. autoclass:: pimms.divergence.ABDivergence
     :members:
     :undoc-members:
     :show-inheritance:
@@ -106,14 +106,14 @@ The ``ABDivergence`` class
 
 The ``FisherRao`` class
 *****************************
-.. autoclass:: pim.divergence.FisherRao
+.. autoclass:: pimms.divergence.FisherRao
     :members:
     :undoc-members:
     :show-inheritance:
 
 The ``LP`` class
 *****************************
-.. autoclass:: pim.divergence.LP
+.. autoclass:: pimms.divergence.LP
     :members:
     :undoc-members:
     :show-inheritance:
@@ -127,14 +127,14 @@ Measure of Information under-multivariate gaussian assumption
 
 The ``Frechet`` class
 *****************************
-.. autoclass:: pim.continuous_gaussian.Frechet
+.. autoclass:: pimms.continuous_gaussian.Frechet
     :members:
     :undoc-members:
     :show-inheritance:
 
 The ``FisherRao`` class
 *****************************
-.. autoclass:: pim.continuous_gaussian.FisherRao
+.. autoclass:: pimms.continuous_gaussian.FisherRao
     :members:
     :undoc-members:
     :show-inheritance:
@@ -142,7 +142,7 @@ The ``FisherRao`` class
 
 The ``JensenShannon`` class
 *****************************
-.. autoclass:: pim.continuous_gaussian.JensenShannon
+.. autoclass:: pimms.continuous_gaussian.JensenShannon
     :members:
     :undoc-members:
     :show-inheritance:
@@ -155,7 +155,7 @@ Differential and Discreat Entropy Estimation
 
 The ``DiscreteEntropyEstimator`` class
 *****************************
-.. autoclass:: pim.entropy.DiscreteEntropyEstimator
+.. autoclass:: pimms.entropy.DiscreteEntropyEstimator
     :members:
     :undoc-members:
     :show-inheritance:
@@ -163,14 +163,14 @@ The ``DiscreteEntropyEstimator`` class
 
 The ``ConditionalKNIFE`` class
 *****************************
-.. autoclass:: pim.entropy.ConditionalKNIFE
+.. autoclass:: pimms.entropy.ConditionalKNIFE
     :members:
     :undoc-members:
     :show-inheritance:
 
 The ``KNIFE`` class
 *****************************
-.. autoclass:: pim.entropy.KNIFE
+.. autoclass:: pimms.entropy.KNIFE
     :members:
     :undoc-members:
     :show-inheritance:
@@ -178,7 +178,7 @@ The ``KNIFE`` class
 
 The ``EntropyDoe`` class
 *****************************
-.. autoclass:: pim.entropy.EntropyDoe
+.. autoclass:: pimms.entropy.EntropyDoe
     :members:
     :undoc-members:
     :show-inheritance:
@@ -191,14 +191,14 @@ Utils for combining the Measure of Information
 
 The ``JeffreySymetrizationEstimator`` class
 *****************************
-.. autoclass:: pim.misc.JeffreySymetrizationEstimator
+.. autoclass:: pimms.misc.JeffreySymetrizationEstimator
     :members:
     :undoc-members:
     :show-inheritance:
 
 The ``JensenSymetrizationEstimator`` class
 *****************************
-.. autoclass:: pim.misc.JensenSymetrizationEstimator
+.. autoclass:: pimms.misc.JensenSymetrizationEstimator
     :members:
     :undoc-members:
     :show-inheritance:
@@ -206,7 +206,7 @@ The ``JensenSymetrizationEstimator`` class
 
 The ``IProjector`` class
 *****************************
-.. autoclass:: pim.misc.IProjector
+.. autoclass:: pimms.misc.IProjector
     :members:
     :undoc-members:
     :show-inheritance:
@@ -217,14 +217,14 @@ Abstract classes for adding your own estimator
 
 The ``DiscreteEstimator`` class
 *****************************
-.. autoclass:: pim.abstract_class.DiscreteEstimator
+.. autoclass:: pimms.abstract_class.DiscreteEstimator
     :members:
     :undoc-members:
     :show-inheritance:
 
 The ``ContinuousEstimator`` class
 *****************************
-.. autoclass:: pim.abstract_class.ContinuousEstimator
+.. autoclass:: pimms.abstract_class.ContinuousEstimator
     :members:
     :undoc-members:
     :show-inheritance:
@@ -232,7 +232,7 @@ The ``ContinuousEstimator`` class
 
 The ``MixedEstimator`` class
 *****************************
-.. autoclass:: pim.abstract_class.MixedEstimator
+.. autoclass:: pimms.abstract_class.MixedEstimator
     :members:
     :undoc-members:
     :show-inheritance:

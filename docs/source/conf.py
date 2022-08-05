@@ -18,12 +18,12 @@ sys.path.append(os.path.join(__file__, "../../pimms/entropy"))
 sys.path.append(os.path.join(__file__, "../../pimms/misc"))
 sys.path.append(os.path.join(__file__, "../../pimms/mutual_information"))
 sys.path.append(os.path.join(__file__, "../../pimms/unit_tests"))
-sys.path.append(os.path.join(__file__, "../pim/continuous_gaussian"))
-sys.path.append(os.path.join(__file__, "../pim/divergence"))
-sys.path.append(os.path.join(__file__, "../pim/entropy"))
-sys.path.append(os.path.join(__file__, "../pim/misc"))
-sys.path.append(os.path.join(__file__, "../pim/mutual_information"))
-sys.path.append(os.path.join(__file__, "../pim/unit_tests"))
+sys.path.append(os.path.join(__file__, "../pimms/continuous_gaussian"))
+sys.path.append(os.path.join(__file__, "../pimms/divergence"))
+sys.path.append(os.path.join(__file__, "../pimms/entropy"))
+sys.path.append(os.path.join(__file__, "../pimms/misc"))
+sys.path.append(os.path.join(__file__, "../pimms/mutual_information"))
+sys.path.append(os.path.join(__file__, "../pimms/unit_tests"))
 project = 'PIM'
 copyright = '2022, Pierre COLOMBO'
 author = 'Pierre Colombo, Malik Boudiaf'
