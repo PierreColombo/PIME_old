@@ -189,16 +189,16 @@ Utils for combining the Measure of Information
 ----------------------------------------------
 
 
-The ``JeffreySymetrizationEstimator`` class
+The ``JeffreySymmetrizationEstimator`` class
 *****************************
-.. autoclass:: pimms.misc.JeffreySymetrizationEstimator
+.. autoclass:: pimms.misc.JeffreySymmetrizationEstimator
     :members:
     :undoc-members:
     :show-inheritance:
 
-The ``JensenSymetrizationEstimator`` class
+The ``JensenSymmetrizationEstimator`` class
 *****************************
-.. autoclass:: pimms.misc.JensenSymetrizationEstimator
+.. autoclass:: pimms.misc.JensenSymmetrizationEstimator
     :members:
     :undoc-members:
     :show-inheritance:
